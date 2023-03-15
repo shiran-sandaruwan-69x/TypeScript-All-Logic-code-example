@@ -13,7 +13,7 @@ let details = function (dataOr:orderDetailsTypes){
 }
 
 let data:orderDetailsTypes={
-    orderId:"C001"
+    orderId:"G001"
 }
 
 //let result = details(data)
@@ -24,8 +24,9 @@ let data:orderDetailsTypes={
 
 let details2 = function (dataOr:orderDetailsTypes){
     if(dataOr.orderId){
-        return `kuku ${dataOr.orderId.toLocaleUpperCase()}`
+        return `order id is : ${dataOr.orderId.toLocaleUpperCase()}`;
     }
+    return `no order id !`;
 }
 
 console.log(details2(data)); // orderId ekata mokk wath dala thibbe nathnam print wenne na / if coundion false
