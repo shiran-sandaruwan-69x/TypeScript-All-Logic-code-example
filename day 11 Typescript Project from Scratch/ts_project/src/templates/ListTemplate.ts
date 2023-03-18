@@ -8,6 +8,7 @@ interface DOMList{
 
 export default class ListTemplate implements DOMList{
 
+    // singleton
     static instance:ListTemplate = new ListTemplate();
     ul:HTMLUListElement
 
@@ -24,7 +25,7 @@ export default class ListTemplate implements DOMList{
         this.clear()
         fullList.list.forEach(item=>{
             const li= document.createElement('li') as HTMLLIElement
-            li.className = 'items'
+            li.className = 'item'
 
             const check = document.createElement("input") as HTMLInputElement
             check.type = "checkbox"
@@ -33,7 +34,7 @@ export default class ListTemplate implements DOMList{
             check.tabIndex=0
             li.append(check)
 
-            check.addEventListener('change',function (){
+            check.addEventListener('change', () => {
                 item.checked = !item.checked
                 fullList.save()
             })
@@ -48,9 +49,8 @@ export default class ListTemplate implements DOMList{
             button.textContent='X'
             li.append(button)
 
-            button.addEventListener('click',function (){
+            button.addEventListener('click', () => {
                 fullList.removeItem(item.id)
-                // @ts-ignore
                 this.render(fullList)
             })
             this.ul.append(li);

@@ -11,10 +11,11 @@ interface List{
 
 export default class FullList implements List{
 
+    // singleton
     static instance: FullList = new FullList();
     private __list: ListItem[];
 
-    constructor(list:ListItem[]=[]) {
+    private constructor(list:ListItem[]=[]) {
     this.__list=list;
     }
 

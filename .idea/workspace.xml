@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00def8e-6920-404f-a466-8a5e404e9243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/FullList.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/ListItem.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/templates/ListTemplate.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/FullList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/FullList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/ListItem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/model/ListItem.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/templates/ListTemplate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/day 11 Typescript Project from Scratch/ts_project/src/templates/ListTemplate.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,8 @@
       <workItem from="1679059937233" duration="1189000" />
       <workItem from="1679061914665" duration="6077000" />
       <workItem from="1679069526756" duration="9631000" />
+      <workItem from="1679136065564" duration="313000" />
+      <workItem from="1679147132578" duration="4211000" />
     </task>
     <servers />
   </component>
